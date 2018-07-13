@@ -9,6 +9,7 @@ public class FirstTask {
        /* System.out.println("iveskite zodi");
         String word = scanner.nextLine();
         System.out.println(word);*/
+       //pridetas komentaras
         getCorrect(scanner);
 
 
