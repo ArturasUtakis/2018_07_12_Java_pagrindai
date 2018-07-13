@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e4ed471-c6e6-497c-8ceb-821adc33e467" name="Default" comment="" />
+    <list default="true" id="6e4ed471-c6e6-497c-8ceb-821adc33e467" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/days/second/thirdTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/second/thirdTask.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +17,11 @@
       <file leaf-file-name="thirdTask.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/days/second/thirdTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="496">
+              <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -245,12 +250,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531412422973</updated>
       <workItem from="1531412431518" duration="7500000" />
-      <workItem from="1531494421771" duration="10009000" />
+      <workItem from="1531494421771" duration="11109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17509000" />
+    <option name="totallyTimeSpent" value="18609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="36" width="1400" height="776" extended-state="0" />
@@ -274,7 +279,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32880846" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32880846" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32880846" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963924" />
       <window_info id="Web" order="7" side_tool="true" />
@@ -327,8 +332,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/days/second/thirdTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="496">
+          <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

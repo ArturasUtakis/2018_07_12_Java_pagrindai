@@ -1,5 +1,6 @@
 package days.second;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class thirdTask {
@@ -35,28 +36,43 @@ public class thirdTask {
         }
 
     }
-    private double trikampioPlotas(Scanner scanner){
-        System.out.println("Iveskite a statini");
-        double a = scanner.nextDouble();
-        System.out.println("Iveskite b statini");
-        double b = scanner.nextDouble();
-        return (a*b)/2;
+
+    private double trikampioPlotas(Scanner scanner) {
+        double a = getCorrectNumber(scanner,"Iveskite a statini");
+        double b = getCorrectNumber(scanner,"Iveskite b statini");
+        return (a * b) / 2;
     }
-    private double staciakampioPlotas(Scanner scanner){
-        System.out.println("Iveskite pirma krastine:");
-        double a = scanner.nextDouble();
-        System.out.println("Iveskite antra krastine:");
-        double b = scanner.nextDouble();
-        return (a*b);
+
+    private double staciakampioPlotas(Scanner scanner) {
+        double a = getCorrectNumber(scanner,"Iveskite a krastine");
+        double b = getCorrectNumber(scanner,"Iveskite b krastine");
+        return (a * b);
     }
-    private double kvadratoPlotas(Scanner scanner){
-        System.out.println("Iveskite krastine:");
-        double a = scanner.nextDouble();
-        return (a*a);
+
+    private double kvadratoPlotas(Scanner scanner) {
+        double a = getCorrectNumber(scanner,"Iveskite krastine");
+        return (a * a);
     }
-    private double apskritimoPlotas(Scanner scanner){
+
+    private double apskritimoPlotas(Scanner scanner) {
         System.out.println("Iveskite izambine:");
-        double a = scanner.nextDouble();
-        return Math.PI*Math.pow(a,2);
+        double a = getCorrectNumber(scanner,"Iveskite spinduli");
+        return Math.PI * Math.pow(a, 2);
+    }
+
+    private double getCorrectNumber(Scanner sc, String message) {
+        double result;
+        while (true) {
+            System.out.println(message);
+            try {
+                result = sc.nextDouble();
+                break;
+            } catch (InputMismatchException e) {
+                System.out.println("Nepavyko pakartokite");
+                sc.nextLine();
+            }
+        }
+        return result;
     }
 }
+
