@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4ed471-c6e6-497c-8ceb-821adc33e467" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/days/first/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/first/FirstTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pvz/days/second/secondTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/days/second/secondTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/days/second/secondTask.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +16,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FirstTask.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="secondTask.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/days/second/secondTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/days/first/FirstTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -43,8 +52,8 @@
         <option value="$PROJECT_DIR$/src/days/first/WelcomeClass.java" />
         <option value="$PROJECT_DIR$/src/days/first/Uzduotys.java" />
         <option value="$PROJECT_DIR$/src/days/first/PVZ.java" />
-        <option value="$PROJECT_DIR$/src/days/second/secondTask.java" />
         <option value="$PROJECT_DIR$/src/days/first/FirstTask.java" />
+        <option value="$PROJECT_DIR$/src/days/second/secondTask.java" />
       </list>
     </option>
   </component>
@@ -58,8 +67,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="222" />
-    <option name="y" value="12" />
+    <option name="x" value="66" />
+    <option name="y" value="1" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -127,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstTask">
+  <component name="RunManager" selected="Application.secondTask">
     <configuration name="FirstTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="days.first.FirstTask" />
       <module name="pvz" />
@@ -152,6 +161,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="secondTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="days.second.secondTask" />
+      <module name="pvz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="days.second.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -194,9 +214,11 @@
     <list>
       <item itemvalue="Application.WelcomeClass" />
       <item itemvalue="Application.FirstTask" />
+      <item itemvalue="Application.secondTask" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.secondTask" />
         <item itemvalue="Application.FirstTask" />
         <item itemvalue="Application.WelcomeClass" />
       </list>
@@ -213,15 +235,16 @@
       <option name="presentableId" value="Default" />
       <updated>1531412422973</updated>
       <workItem from="1531412431518" duration="7500000" />
-      <workItem from="1531494421771" duration="3942000" />
+      <workItem from="1531494421771" duration="6458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11442000" />
+    <option name="totallyTimeSpent" value="13958000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="0" width="1400" height="776" extended-state="0" />
+    <frame x="178" y="10" width="1400" height="776" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -242,7 +265,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32880846" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32880846" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32880846" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963924" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Learn" order="6" />
@@ -278,17 +301,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/days/second/secondTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/days/first/FirstTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/days/second/secondTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
         </state>
       </provider>
     </entry>
